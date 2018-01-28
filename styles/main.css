@@ -1,6 +1,12 @@
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  padding: 1%
+}
+
+main {
+  width: 98%;
+  border: 1px solid red;
 }
 
 p {
@@ -22,6 +28,16 @@ nav a:hover {
 
 /**************** HERO *****************/
 
+header {
+  width: 74%;
+  float: left;
+  border: 1px solid red;
+}
+
+header * {
+  float: left;
+}
+
 header img {
   max-height: 6rem;
 }
@@ -30,7 +46,17 @@ h1 .logo-w {
   font-size: 3.5rem;
 }
 
+header::after {
+  clear: both;
+}
+
 /**************** ASIDE ****************/
+
+aside {
+  width: 24%;
+  float: left;
+  border: 1px solid red
+}
 
 input[type="submit"] {
   padding: .25rem;
@@ -44,7 +70,15 @@ input[type="submit"] {
 /*********** PRODUCTS SECTION ***********/
 
 section {
+  width: 98%;
+  float: left;
   padding: 0 .75rem;
+}
+
+div.itemcontainter * {
+  border: 1px solid red;
+  width: 24.5%;
+  
 }
 
 h2 {
