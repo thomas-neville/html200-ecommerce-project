@@ -5,7 +5,7 @@ body {
 }
 
 main {
-  border: 1px solid red;
+ 
 }
 
 p {
@@ -14,16 +14,16 @@ p {
   color: #2d2d2d;
 }
 
-/* TODO: size images manually so this is not necessary */
 img {
   width: 12.5rem;
   height: auto;
   margin: 1rem 0;
+  border-radius: .4rem;
 }
 
 .logo {
-  width: 4rem;
-  order: ;
+  width: auto;
+  height: 6rem;
 }
 
 /***************** NAV *****************/
@@ -32,20 +32,25 @@ nav {
   width: 100%;
   order: 2;
   margin: 1rem 0;
+  padding: .5rem;
+  background-color: royalblue;
+  border-radius: .4rem;
 }
 
 nav ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  color: aliceblue;
 }
 
 li a {
   text-decoration: none;
+  color: aliceblue;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  text-decoration: bold;
 }
 
 /**************** HERO *****************/
@@ -54,21 +59,31 @@ header {
   display: flex;
   flex-flow: row wrap;
   align-content: space-around;
+  background-color: lightgray
 }
 
 header:nth-child(1) {
-  border: 1px solid red;
   width: auto;
   align-self: flex-start;
   margin: auto;
 }
 
 header img {
-  height: 3.125rem;
+  width:3.125rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: lightslategray;
+  margin: 4rem 0 1rem 1rem;
+}
+
+h1 span {
+  color: royalblue;
 }
 
 h1 .logo-w {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 /**************** ASIDE ****************/
@@ -76,7 +91,9 @@ h1 .logo-w {
 aside {
   width: 100%;
   order: 3;
-  border: 1px solid red
+  background-color: lightslategray;
+  border-radius: .4rem;
+  padding: .5rem
 }
 
 input[type="submit"] {
@@ -90,18 +107,13 @@ input[type="submit"] {
 
 /*********** PRODUCTS SECTION ***********/
 
-section {
-  height: 90%;
-}
-
 .item-container {
   display: flex;
   flex-flow: row wrap;
-  align-items: flex-start;  
+  align-items: flex-start;
 }
 
 .item {
-  border: 1px solid red;
   width: 15.63rem;
   align-self: flex-start;
   padding: 2rem 1rem;
@@ -109,7 +121,8 @@ section {
   height: auto;
   font-size: .8rem;
   text-align: center;
-  border-radius: .3rem;
+  background-color: lightgray;
+  border-radius: .4rem;
 }
 
 h2 {
