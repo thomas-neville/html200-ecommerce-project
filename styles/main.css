@@ -1,14 +1,10 @@
-/*Use media queries for resizing or some kind of grid system with fixed row height*/
-
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-  width: 98%;
-  padding: 1%
+  padding: .5rem;
 }
 
 main {
-  width: 100%;
   border: 1px solid red;
 }
 
@@ -20,7 +16,7 @@ p {
 
 /* TODO: size images manually so this is not necessary */
 img {
-  width: 200px;
+  width: 12.5rem;
   height: auto;
   margin: 1rem 0;
 }
@@ -44,6 +40,10 @@ nav ul {
   justify-content: space-around;
 }
 
+li a {
+  text-decoration: none;
+}
+
 nav a:hover {
   text-decoration: underline;
 }
@@ -51,8 +51,6 @@ nav a:hover {
 /**************** HERO *****************/
 
 header {
-  width: 98%;
-  padding: 0 .75rem;
   display: flex;
   flex-flow: row wrap;
   align-content: space-around;
@@ -62,13 +60,11 @@ header:nth-child(1) {
   border: 1px solid red;
   width: auto;
   align-self: flex-start;
-  padding: 1%;
   margin: auto;
-  height: 10%;
 }
 
 header img {
-  max-height: 6rem;
+  height: 3.125rem;
 }
 
 h1 .logo-w {
@@ -87,7 +83,7 @@ input[type="submit"] {
   padding: .25rem;
   background-color: #3D7FCF;
   border: 1px solid #3D7FCF;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   font-size: .75rem;
   color: white;
 }
@@ -96,37 +92,35 @@ input[type="submit"] {
 
 section {
   height: 90%;
-  width: 100%;
 }
 
 .item-container {
-  width: 98%;
-  padding: 0 .75rem;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;  
+  align-items: flex-start;  
 }
 
 .item {
   border: 1px solid red;
-  width: 250px;
+  width: 15.63rem;
   align-self: flex-start;
-  padding: 1%;
-  margin: auto;
+  padding: 2rem 1rem;
+  margin: 1rem auto;
   height: auto;
   font-size: .8rem;
   text-align: center;
+  border-radius: .3rem;
 }
 
 h2 {
-  margin: 2%;
-  font-size: 2rem;
+  margin: 1rem;
+  font-size: 1.75rem;
   text-align: center;
   color: #2d2d2d;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   text-align: center;
   color: #2d2d2d;
 }
