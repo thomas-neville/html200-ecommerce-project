@@ -20,11 +20,26 @@ p {
 
 /* TODO: size images manually so this is not necessary */
 img {
-  max-height: 10rem;
+  width: 200px;
+  height: auto;
   margin: 1rem 0;
 }
 
+.logo {
+  width: 4rem;
+  order: ;
+}
+
 /***************** NAV *****************/
+
+nav {
+  width: 100%;
+  order: 2;
+}
+
+nav ul {
+  
+}
 
 nav a:hover {
   text-decoration: underline;
@@ -37,7 +52,7 @@ header {
   padding: 0 .75rem;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  align-content: space-around;
 }
 
 header:nth-child(1) {
@@ -60,7 +75,8 @@ h1 .logo-w {
 /**************** ASIDE ****************/
 
 aside {
-  width: 30%;
+  width: 100%;
+  order: 3;
   border: 1px solid red
 }
 
