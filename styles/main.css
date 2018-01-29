@@ -33,14 +33,20 @@ nav a:hover {
 /**************** HERO *****************/
 
 header {
+  width: 98%;
+  padding: 0 .75rem;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  border: 1px solid red;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-header * {
+header:nth-child(1) {
+  border: 1px solid red;
+  width: auto;
+  align-self: flex-start;
+  padding: 1%;
+  margin: auto;
+  height: 10%;
 }
 
 header img {
@@ -49,10 +55,6 @@ header img {
 
 h1 .logo-w {
   font-size: 3.5rem;
-}
-
-header::after {
-
 }
 
 /**************** ASIDE ****************/
@@ -74,7 +76,8 @@ input[type="submit"] {
 /*********** PRODUCTS SECTION ***********/
 
 section {
-  
+  height: 90%;
+  width: 100%;
 }
 
 .item-container {
@@ -91,13 +94,13 @@ section {
   align-self: flex-start;
   padding: 1%;
   margin: auto;
-  height: 250px;
+  height: auto;
   font-size: .8rem;
   text-align: center;
 }
 
 h2 {
-  padding-top: 1.5rem;
+  margin: 2%;
   font-size: 2rem;
   text-align: center;
   color: #2d2d2d;
