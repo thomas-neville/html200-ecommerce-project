@@ -1,11 +1,14 @@
+/*Use media queries for resizing or some kind of grid system with fixed row height*/
+
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  width: 98%;
   padding: 1%
 }
 
 main {
-  width: 98%;
+  width: 100%;
   border: 1px solid red;
 }
 
@@ -17,7 +20,8 @@ p {
 
 /* TODO: size images manually so this is not necessary */
 img {
-  max-height: 20rem;
+  max-height: 10rem;
+  margin: 1rem 0;
 }
 
 /***************** NAV *****************/
@@ -29,13 +33,14 @@ nav a:hover {
 /**************** HERO *****************/
 
 header {
-  width: 74%;
-  float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
   border: 1px solid red;
 }
 
 header * {
-  float: left;
 }
 
 header img {
@@ -47,14 +52,13 @@ h1 .logo-w {
 }
 
 header::after {
-  clear: both;
+
 }
 
 /**************** ASIDE ****************/
 
 aside {
-  width: 24%;
-  float: left;
+  width: 30%;
   border: 1px solid red
 }
 
@@ -70,15 +74,26 @@ input[type="submit"] {
 /*********** PRODUCTS SECTION ***********/
 
 section {
-  width: 98%;
-  float: left;
-  padding: 0 .75rem;
+  
 }
 
-div.itemcontainter * {
+.item-container {
+  width: 98%;
+  padding: 0 .75rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;  
+}
+
+.item {
   border: 1px solid red;
-  width: 24.5%;
-  
+  width: 250px;
+  align-self: flex-start;
+  padding: 1%;
+  margin: auto;
+  height: 250px;
+  font-size: .8rem;
+  text-align: center;
 }
 
 h2 {
