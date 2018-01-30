@@ -4,10 +4,6 @@ body {
   padding: .5rem;
 }
 
-main {
- 
-}
-
 p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: lighter;
@@ -21,6 +17,13 @@ img {
   border-radius: .4rem;
 }
 
+.logo-header {
+  width: 100%;
+  background-color: lightgray;
+  border-radius: .4rem;
+  display: flex;
+}
+
 .logo {
   width: auto;
   height: 6rem;
@@ -31,7 +34,7 @@ img {
 nav {
   width: 100%;
   order: 2;
-  margin: 1rem 0;
+  margin: 0;
   padding: .5rem;
   background-color: royalblue;
   border-radius: .4rem;
@@ -49,8 +52,8 @@ li a {
   color: aliceblue;
 }
 
-nav a:hover {
-  text-decoration: bold;
+ul li:hover {
+  font-weight: bold;
 }
 
 /**************** HERO *****************/
@@ -58,9 +61,8 @@ nav a:hover {
 header {
   display: flex;
   flex-flow: row wrap;
-  align-content: space-around;
-  background-color: lightgray;
-  border-radius: .4rem;
+  align-content: space-between;
+  justify-content: flex-start;
 }
 
 header:nth-child(1) {
@@ -71,12 +73,14 @@ header:nth-child(1) {
 
 header img {
   width:3.125rem;
+  margin: 1rem;
 }
 
 h1 {
   font-size: 2.5rem;
   color: lightslategray;
-  margin: 4rem 0 1rem 1rem;
+  margin: 1rem;
+  align-self: flex-end
 }
 
 h1 span {
