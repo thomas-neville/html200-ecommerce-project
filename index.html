@@ -13,8 +13,23 @@
 
 <body>
   <header>
+    
+<!--
+    Insert cat scarf logo to be served at 2 different sizes as jpgs for shorter load time, remove class logo?
+    
+    <div class="photo-frame">
+        <img srcset="dragon.jpg 1920w, dragon-800w.jpg 800w, dragon-400w.jpg 400w"
+             sizes="(max-width: 800px) 400px, (max-width: 1700px) 800px, (min-width: 2400px) 1200px"
+             src="dragon.jpg" 
+             alt="a fire-breathing cat">
+    </div>
+-->
+    
     <div class="logo-header">
-      <img class="logo" src="images/logo-scarfcat.png" alt="dapper cartoon cat wearing a scarf">
+      <img srcset="images/logo-scarfcat-100w.jpg 100w, images/logo-scarfcat-200w.jpg 200w"
+           sizes="(max-width: 800px) 100px, (min-width: 801px) 200px"
+           src="images/logo-scarfcat-200w.jpg"
+           alt="dapper cartoon cat wearing a scarf">
       <h1>
         <span class="logo-w">W</span>inter
         <span class="logo-w">W</span>ear
