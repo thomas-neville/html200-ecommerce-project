@@ -111,7 +111,7 @@ input[type="submit"] {
 */
 
 .item {
-  width: 15.63rem;
+  width: auto;
   align-self: flex-start;
   padding: 2rem 1rem;
   margin: 1rem auto;
