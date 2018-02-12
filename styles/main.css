@@ -8,6 +8,7 @@ p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: lighter;
   color: #2d2d2d;
+  margin-bottom: .5rem 
 }
 
 /***************** NAV *****************/
@@ -15,7 +16,6 @@ p {
 nav {
   width: 100%;
   order: 2;
-  margin: 0;
   padding: .5rem;
   background-color: royalblue;
   border-radius: .4rem;
@@ -38,29 +38,16 @@ ul li:hover {
 }
 
 /**************** HERO *****************/
-/*
-header {
-
+.logo-header {
   display: flex;
   flex-flow: row wrap;
   align-content: space-between;
   justify-content: flex-start;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(135, 149, 255, 0.1))
 }
-
-header:nth-child(1) {
-  width: auto;
-  align-self: flex-start;
-  margin: auto;
-}
-
-header img {
-  width:3.125rem;
-  margin: 1rem;
-}
-*/
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: lightslategray;
   margin: 1rem;
   align-self: flex-end
@@ -71,7 +58,7 @@ h1 span {
 }
 
 h1 .logo-w {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 /**************** ASIDE ****************/
@@ -95,23 +82,23 @@ input[type="submit"] {
 
 /*********** PRODUCTS SECTION ***********/
 
+section {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(135, 149, 255, 0.1))
+}
+
 .item-container {
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
 }
 
-/*
 .item-container img {
-  width: 12.5rem;
-  height: auto;
   margin: 1rem 0;
   border-radius: .4rem;
 }
-*/
 
 .item {
-  width: auto;
+  width: 24rem;
   align-self: flex-start;
   padding: 2rem 1rem;
   margin: 1rem auto;
@@ -130,7 +117,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-align: center;
   color: #2d2d2d;
 }
