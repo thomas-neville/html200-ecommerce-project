@@ -36,33 +36,33 @@
         </li>
       </ul>
     </nav>
-    
-    <aside>
-      <h2>Information Newsletter</h2>
-      <p>Sign up for my information newsletter. Tell me what you want to learn about and I'll send you information I find about it.</p>
-      <form name="userInfo" onsubmit="nameEmailInterest()">
-        <label>What's your Name?
-          <input name="userName">
-        </label>
-
-        <label>What's your email address?
-          <input name="userEmail">
-        </label>
-
-        <label>What are you interested in learning about?
-          <input name="userInterest">
-        </label>
-
-        <input class="send-button" type="submit" value="Send">
-      </form>
-    </aside>
   </header>
 
   <main>
     <section>
-      <h2>Scarves</h2>
       <!-- Serving all other images at two sizes - 200px w or 300px w based on screen px width -->
       <div class="item-container">
+        <aside>
+          <h2>Information Newsletter</h2>
+          <p>Sign up for my information newsletter. Tell me what you want to learn about and I'll send you information I find about it.</p>
+          <form name="userInfo" onsubmit="nameEmailInterest()">
+            <label>What's your Name?
+              <input name="userName">
+            </label>
+
+            <label>What's your email address?
+              <input name="userEmail">
+            </label>
+
+            <label>What are you interested in learning about?
+              <input name="userInterest">
+            </label>
+
+            <input class="send-button" type="submit" value="Send">
+          </form>
+        </aside>
+        
+        <h2>Scarves</h2>
         <div class="item">
           <h3>Reversible Plaid</h3>
           <img srcset="images/reversible-plaid-200w.jpg 200w, images/reversible-plaid-300w.jpg 300w"
