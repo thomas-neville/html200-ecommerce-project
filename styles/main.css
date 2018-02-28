@@ -35,7 +35,7 @@ li a {
 }
 
 ul li:hover {
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 /**************** HERO *****************/
@@ -124,6 +124,20 @@ h3 {
 
 /*********** MEDIA QUERIES SECTION ***********/
 
-/* Media query for small and large screens */
+/* Media query for small, medium, and large screens */
+
+@media (max-width: 564px){
+  
+}
+
+@media (min-width: 565px) and (max-width: 1200px){
+  
+}
+
+@media (min-width: 1201px){
+  
+}
+
+  
 
 /* Media query for time of day styling */
