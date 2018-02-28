@@ -5,7 +5,6 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   padding: .5rem;
   background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(135, 149, 255, 0.1));
-
 }
 
 p {
@@ -19,17 +18,19 @@ p {
 
 nav {
   width: auto;
-  order: 2;
-  padding: .5rem;
   background-color: royalblue;
   border-radius: .4rem;
 }
 
 nav ul {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
   color: aliceblue;
+  padding: .3rem 0;
+}
+
+li {
+  width: 100%;
+  text-align: center;
+  margin: .5rem 0;
 }
 
 li a {
@@ -68,7 +69,7 @@ h1 .logo-w {
 
 aside {
   width: auto;
-  align-self: flex-end;
+  order: 3;
   background-color: lightslategray;
   border-radius: .4rem;
   padding: .5rem;
@@ -81,6 +82,14 @@ input[type="submit"] {
   border-radius: 0.3125rem;
   font-size: .75rem;
   color: white;
+}
+
+aside p {
+  color: white;
+}
+
+label {
+  color: lightblue;
 }
 
 /*********** PRODUCTS SECTION ***********/
@@ -126,11 +135,19 @@ h3 {
   color: #2d2d2d;
 }
 
+h4 {
+  margin: 1rem;
+  font-size: 1.75rem;
+  text-align: center;
+  color: white;
+}
+
+
 
 /*********** FORM STYLES SECTION ***********/
 
 form {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -145,6 +162,7 @@ input {
   border: 1px solid gray;
   border-radius: .2rem;
   padding: .3rem;
+  width: 90%;
 }
 
 /* To cover input styles */
@@ -184,8 +202,6 @@ input {
 
   nav {
     width: auto;
-    order: 2;
-    padding: .5rem;
     background-color: royalblue;
     border-radius: .4rem;
   }
@@ -200,6 +216,10 @@ input {
   li a {
     text-decoration: none;
     color: aliceblue;
+  }
+  
+  li {
+    width: 25%;
   }
 
   ul li:hover {
@@ -233,7 +253,7 @@ input {
 
   aside {
     width: auto;
-    order: 3;
+    order: 0;
     background-color: lightslategray;
     border-radius: .4rem;
     padding: .5rem;
@@ -246,6 +266,14 @@ input {
     border-radius: 0.3125rem;
     font-size: .75rem;
     color: white;
+  }
+  
+  aside p {
+    color: white;
+  }
+  
+  label {
+    color: lightblue;
   }
 
   /*********** PRODUCTS SECTION ***********/
@@ -281,13 +309,20 @@ input {
     margin: 1rem;
     font-size: 1.75rem;
     text-align: center;
-    color: #2d2d2d;
+    color: royalblue;
   }
 
   h3 {
     font-size: 1.5rem;
     text-align: center;
     color: #2d2d2d;
+  }
+  
+  h4 {
+    margin: 1rem;
+    font-size: 1.75rem;
+    text-align: center;
+    color: white;
   }
 
 
@@ -309,6 +344,7 @@ input {
     border: 1px solid gray;
     border-radius: .2rem;
     padding: .3rem;
+    width: auto;
   }
 
   /* To cover input styles */
