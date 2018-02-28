@@ -122,6 +122,56 @@ h3 {
   color: #2d2d2d;
 }
 
+
+/*********** FORM STYLES SECTION ***********/
+
+/*
+body {
+  width: 100%;
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: royalblue;
+}
+
+p {
+  width: 80%;
+}
+*/
+
+form {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  align-self: flex-start;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: .2rem;
+  padding: .3rem;
+}
+
+/* To cover input styles */
+
+.send-button {
+  background-color: royalblue;
+  width: 10rem;
+  margin: 1rem 0;
+  height: 2rem;
+  border-color: aliceblue;
+  border-radius: .5rem;
+  border-style: solid;
+  color: aliceblue;
+}
+
 /*********** MEDIA QUERIES SECTION ***********/
 
 /* Media query for small, medium, and large screens */

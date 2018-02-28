@@ -38,12 +38,22 @@
     </nav>
     
     <aside>
-      <form>
-        <label>Sign up for our mailing list:
-          <input type="email" name="email">
+      <h2>Information Newsletter</h2>
+      <p>Sign up for my information newsletter. Tell me what you want to learn about and I'll send you information I find about it.</p>
+      <form name="userInfo" onsubmit="nameEmailInterest()">
+        <label>What's your Name?
+          <input name="userName">
         </label>
 
-        <input type="submit" value="Submit">
+        <label>What's your email address?
+          <input name="userEmail">
+        </label>
+
+        <label>What are you interested in learning about?
+          <input name="userInterest">
+        </label>
+
+        <input class="send-button" type="submit" value="Send">
       </form>
     </aside>
   </header>
@@ -130,5 +140,6 @@
     </section>
   </main>
   <script src="js/script.js"></script>
+  <script src="form-handler.js"></script>
 </body>
 </html>
