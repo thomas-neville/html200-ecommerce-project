@@ -246,7 +246,7 @@ input {
   /**************** ASIDE ****************/
 
   aside {
-    width: auto;
+    width: 100%;
     order: 0;
     background-color: lightslategray;
     border-radius: .4rem;
