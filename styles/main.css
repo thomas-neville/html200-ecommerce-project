@@ -162,6 +162,18 @@ input {
   width: 90%;
 }
 
+button {
+  color: white;
+  background-color: royalblue;
+  border: 1px solid royalblue;
+  border-radius: .3rem;
+}
+
+button:hover {
+  background-color: #0033cc;
+  border: 1px solid #0033cc;
+}
+
 .send-button {
   background-color: royalblue;
   width: 10rem;
