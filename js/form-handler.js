@@ -1,6 +1,3 @@
-// test console log
-console.log("hi hi")
-
 // form handling function
 function nameEmailInterest(){
 

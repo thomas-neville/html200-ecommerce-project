@@ -70,6 +70,26 @@
                alt="reversible plaid scarf">
           <p>Two classic patterns in one great look: This supersoft and cozy reversible scarf instantly doubles your street-style cred. 100% acrylic.</p>
           <p>$26.99</p>
+          
+          <!-- Test add/remove item  -->
+<!--
+          <form name="cartForm" onsubmit="addToCart('Reversible Plaid')">
+            <label> Add to Cart
+              <input type="text" name="reversePlaid">
+            </label>
+          </form>
+-->
+          
+          <button onclick="addToCart('Reversible Plaid Scarf')">
+            Add to Cart
+          </button>
+          
+          <button onclick="removeFromCart('Reversible Plaid Scarf')">
+            Remove from Cart
+          </button>
+          
+          
+          
         </div>
 
         <div class="item">
@@ -140,5 +160,6 @@
   </main>
   <script src="js/script.js"></script>
   <script src="js/form-handler.js"></script>
+  <script src="js/cart-script.js"></script>
 </body>
 </html>
