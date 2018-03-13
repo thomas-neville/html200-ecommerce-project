@@ -74,5 +74,12 @@ Each weekly assignment will be graded independently. There will not be a final g
 - [ ]Update the "Testing" section of the README to include your research on users and devices, and testing steps you took to ensure site quality.
 
 ### User Base
-User Base Attribute | My User Base | Impact
------- | ------- | -------
+User Base Attribute | My User Base | Impact | Notes
+------ | ------- | ------- | -------
+Age and age groups | Youth and older | L | -------
+Personal life-style | Into fashion and style | H | -------
+Gender | Male and female | L | -------
+Language | Unknown | M | Should be translated
+Education | Any level | L | -------
+Learning preferences | Any | L | Visual is a must, but detailed descriptions should be used for screen readers
+Work attributes | Any | L | -------
