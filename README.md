@@ -83,3 +83,15 @@ Language | Unknown | M | Should be translated
 Education | Any level | L | 
 Learning preferences | Any | L | Visual is a must, but detailed descriptions should be used for screen readers
 Work attributes | Any | L | 
+Expectations | Based on other shopping sites | H | Should be intuitive like other shopping sites
+Existing knowledge | Familiarity with style, scarf styles | M | Want to show new and unfamiliar products first if their preferences are unfiltered
+Web and computer experience | Familiar with other shopping sites | H | How other shopping sites behave and are navigated
+On what device they will read it | Mobile, tablet, desktop | H | 
+Internet connection speed | Variable | H | Should keep image sizes managable for slower speeds
+User's location | Basis for translation | M | Language preferences
+Place where the page is read | During free time, while on work break | H | Strong determining factor for device
+Why users seek the content | Shopping, "window shopping" | H | 
+Importance of the content to them | They are seeking this content out | H | 
+How they found the page | Email marketing, word of mouth, search engine, phone application (shopping app) | H | 
+When it is read | Time of day can influence styles for site | M | e.g. night-mode
+
