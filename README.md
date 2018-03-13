@@ -69,4 +69,10 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-[update this section with information about the testing steps you took to ensure site quality]
+- [ ]Define who the user base is for this website, and what sort of devices they might use.
+- [ ]Test your site across multiple browsers and devices, focusing on ones your market research highlighted, using the tools we learned about in today's class. 
+- [ ]Update the "Testing" section of the README to include your research on users and devices, and testing steps you took to ensure site quality.
+
+### User Base
+User Base Attribute | My User Base | Impact
+------ | ------- | -------
