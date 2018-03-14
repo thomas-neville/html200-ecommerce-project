@@ -106,5 +106,24 @@ Dell - unknown older model | 1280 x 1024 | 19" | Landscape | Logo is too big, na
 Acer Aspire e15 | 1920 x 1080 | 15.6" | Landscape | Logo is too big, navigation bar text should be larger, dividing borders between nav items would help, gray background of newsletter form is too dark, newsletter form should be an aside and aligned horizontally with products 
 iPhone 6S | 1334 x 750 | 4.7" | Landscape and portrait | Logo and header text should not take up more than 25% of screen, navigation buttons could be consolidated to hamburger menu or have more vertical and bottom space on buttons, make add to cart and remove from cart buttons larger and more space between, landscape orientation moves newsletter before products, using Safari's reader view - there should be more space between products and navigation is not managable
 iPhone 5c | 1136 x 640 | 4" | Landscape and portrait | Logo and header size should be significantly reduced, button size should be increased, and font size should be increased. 
+Amazon Fire 7 | 1024 x 600 | 7" | Landscape and portrait | Logo needs to be smaller, navigation is better than mobiles, issue with shopping cart icon - see browser testing, font size should be increased
+
+#### Screen Testing Outcomes
+Logo and header section must be made smaller, header text and logo should be consolidated and not take up more than 25% of the height when first opening the page. Newsletter should be horizontally aligned with products on large screens (already moves below product section on small screens). Font should be larger in navigation and products section. Buttons should be larger in navigation and products section and more space between them. 
+
+### Browser Testing
+Browser | Testing Notes
+------ | -----
+Chrome and Chrome for iOS | All parts of the page are displaying as they should: hover effects, icons, images, fonts.
+Safari for iOS | All parts of the page are displaying as they should: hover effects, icons, images, fonts.
+Safari Reader View | Navigation and Newsletter form are missing text and links, products section is easier to read and see the images.
+Opera for Windows 10 | All parts of the page are displaying as they should: hover effects, icons, images, fonts.
+Mozilla Firefox, Mozilla Firefox Developer | All parts of the page are displaying as they should: hover effects, icons, images, fonts.
+Mozilla Firefox Reader View | Navigation and Newsletter form are missing text and links, products section is easier to read and see the images.
+Amazon Silk | FontAwesome icon for the shopping cart does not display on this browser. Other parts are displaying properly.
+WebPageTest
+
+#### Browser Testing Outcomes
+Significant loss of function in reader modes on web browsers. Buttons should be larger and more distinct for mobile and smaller devices. Font sizes should be larger everywhere execpt the header.
 
 
