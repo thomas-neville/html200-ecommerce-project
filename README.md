@@ -69,9 +69,9 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-- [x]Define who the user base is for this website, and what sort of devices they might use.
-- []Test your site across multiple browsers and devices, focusing on ones your market research highlighted, using the tools we learned about in today's class. 
-- []Update the "Testing" section of the README to include your research on users and devices, and testing steps you took to ensure site quality.
+- [x] Define who the user base is for this website, and what sort of devices they might use.
+- [x] Test your site across multiple browsers and devices, focusing on ones your market research highlighted, using the tools we learned about in today's class. 
+- [ ] Update the "Testing" section of the README to include your research on users and devices, and testing steps you took to ensure site quality.
 
 ### User Base
 User Base Attribute | My User Base | Impact | Notes
@@ -120,10 +120,14 @@ Safari Reader View | Navigation and Newsletter form are missing text and links, 
 Opera for Windows 10 | All parts of the page are displaying as they should: hover effects, icons, images, fonts.
 Mozilla Firefox, Mozilla Firefox Developer | All parts of the page are displaying as they should: hover effects, icons, images, fonts.
 Mozilla Firefox Reader View | Navigation and Newsletter form are missing text and links, products section is easier to read and see the images.
+Microsoft Edge and Microsoft Edge for iOS | All parts are displaying properly: hover effects, icons, images and fonts. On iOS version when scrolling up from the bottom of the page there is a stuttering effect when passing over the newsletter section.
+Microsoft Edge Reader View | Naviagtion and header are missing most parts. The first letter of text is a large stylized letter.
 Amazon Silk | FontAwesome icon for the shopping cart does not display on this browser. Other parts are displaying properly.
-WebPageTest
+WebPageTest.org | First Byte Time, Keep-alive Enabled, and Compress Transfer received a grade of "A". Compress Images received a "B" - use progressive JPEGs. Potential to save 38KBs. Cache Static Content received a grade of "F" - static files like images, css and js could be cached for an improved grade.
 
 #### Browser Testing Outcomes
 Significant loss of function in reader modes on web browsers. Buttons should be larger and more distinct for mobile and smaller devices. Font sizes should be larger everywhere execpt the header.
 
+### General Testing Outcomes
+Logo and header section sizes need to be reduced, especially for mobile and smaller screen sizes. Buttons should be larger and easier to click on touchscreens. Font sizes need to be increased. Reader modes on mobile and desktop browsers break much of the site functionality. 
 
