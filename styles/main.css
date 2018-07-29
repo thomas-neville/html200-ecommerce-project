@@ -41,7 +41,13 @@ ul li:hover {
   text-decoration: underline;
 }
 
-/**************** HERO *****************/
+/***************** HEADER *****************/
+
+.logo {
+  width: auto;
+  height: 4rem;
+}
+
 .logo-header {
   display: flex;
   flex-flow: row wrap;
@@ -222,7 +228,7 @@ button:hover {
     text-decoration: none;
     color: aliceblue;
   }
-  
+
   li {
     width: 25%;
   }
@@ -232,7 +238,7 @@ button:hover {
   }
 
   /**************** HERO *****************/
-  
+
   .logo-header {
     display: flex;
     flex-flow: row wrap;
@@ -273,11 +279,11 @@ button:hover {
     font-size: .75rem;
     color: white;
   }
-  
+
   aside p {
     color: white;
   }
-  
+
   label {
     color: lightblue;
   }
@@ -323,7 +329,7 @@ button:hover {
     text-align: center;
     color: #2d2d2d;
   }
-  
+
   h4 {
     margin: 1rem;
     font-size: 1.75rem;
