@@ -1,3 +1,6 @@
+$font-para: 'Source Sans Pro', sans-serif;
+$font-heading: 'Merriweather', serif;
+
 /***************** STYLES FOR MOBILE FIRST *****************/
 
 body {
@@ -7,7 +10,7 @@ body {
 }
 
 p {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: $font-para;
   font-weight: lighter;
   color: #2d2d2d;
   margin-bottom: .5rem;
@@ -56,6 +59,7 @@ ul li:hover {
 }
 
 h1 {
+  font-family: $font-heading;
   font-size: 2.5rem;
   color: lightslategray;
   margin: 1rem;
@@ -63,10 +67,12 @@ h1 {
 }
 
 h1 span {
+  font-family: $font-heading;
   color: royalblue;
 }
 
 h1 .logo-w {
+  font-family: $font-heading;
   font-size: 3.5rem;
 }
 
@@ -132,12 +138,14 @@ h2 {
   font-size: 1.75rem;
   text-align: center;
   color: royalblue;
+  font-family: $font-heading;
 }
 
 h3 {
   font-size: 1.5rem;
   text-align: center;
   color: #2d2d2d;
+  font-family: $font-heading;
 }
 
 h4 {
@@ -145,6 +153,7 @@ h4 {
   font-size: 1.75rem;
   text-align: center;
   color: white;
+  font-family: $font-heading;
 }
 
 /*********** FORM STYLES SECTION ***********/
@@ -203,7 +212,7 @@ button:hover {
   }
 
   p {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: $font-para;
     font-weight: lighter;
     color: #2d2d2d;
     margin-bottom: .5rem;
